@@ -127,7 +127,7 @@ if exist "%SENTINEL_PATH%" (
   
     echo Container %CONTAINER_PATH% dismounted successfully.
 
-)else (
+) else (
 
     REM Mount the 103803422 container in Z: volumn
     REM Command line reference: https://www.veracrypt.fr/en/Command%20Line%20Usage.html
